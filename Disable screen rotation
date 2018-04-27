@@ -1,0 +1,5 @@
+Disable the screen rotation:
+$ gsettings set org.gnome.settings-daemon.peripherals.touchscreen orientation-lock true
+
+Additionally, the below command ought to disable the orientation plugin completely:
+$ gsettings set org.gnome.settings-daemon.plugins.orientation active false
