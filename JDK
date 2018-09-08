@@ -1,3 +1,25 @@
+JDK 8
+sudo add-apt-repository ppa:webupd8team/java -y
+sudo apt-get update
+
+//sudo apt-get install oracle-java8-installer
+//To automatically set up the Java 8 environment variables
+//check it
+
+Check which JDK packages are installed
+sudo dpkg --list | grep -i jdk
+Remove Oracle Java 8 completely
+sudo apt-get purge oracle-java8-installer
+sudo apt-get autoremove
+Check that all JDK packages have been removed
+sudo dpkg --list | grep -i jdk
+Install Java 8
+apt-get install oracle-java8-installer
+sudo apt-get install oracle-java8-set-default
+
+java -version
+
+
 JDK 9
 sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update
@@ -6,12 +28,3 @@ sudo apt install oracle-java9-installer -y
 sudo apt install oracle-java9-set-default
 //check it
 javac -version
-
-JDK 8
-sudo add-apt-repository ppa:webupd8team/java -y
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
-//To automatically set up the Java 8 environment variables
-sudo apt-get install oracle-java8-set-default
-//check it
-java -version
