@@ -4,6 +4,8 @@ mount -l
 sudo mount -o remount,rw /media/zavada/E672EF7672EF49BF/ #path to mount point
 
 
+
 -- 
+lsblk # find device
 sudo ntfsfix /dev/sda1
 
