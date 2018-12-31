@@ -1,0 +1,2 @@
+#Device (/dev/***): sudo fdisk -l <br>
+#Mount with read/write: sudo mount -o remount,rw /dev/***
