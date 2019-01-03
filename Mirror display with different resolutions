@@ -1,0 +1,5 @@
+xrandr - show all the screens
+DP-1 - another screen
+eDP-1 - original screen
+
+xrandr --output DP-1 --auto --scale-from 1920x1080 --output eDP-1
