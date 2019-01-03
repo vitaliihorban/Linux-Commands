@@ -1,3 +1,13 @@
+MySQL 8:
+wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.10-1_all.deb 
+sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb 
+
+#software sources: deb http://repo.mysql.com/apt/debian/ ###jessie### mysql-8.0
+
+sudo apt update
+sudo apt-get install mysql-server
+
+
 Install server:
 sudo apt-get install mysql-client mysql-server
 sudo apt-get install -y mysql-server mysql-client 
